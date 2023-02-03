@@ -1,0 +1,62 @@
+.home{
+    border: 1px solid black;
+    width: 500px;
+    height: 400px;
+}
+.link{
+    font-size: 35px;
+    background: red;
+    color: white;
+    text-decoration-line: line-through;
+    text-decoration-style: wavy;
+    text-decoration-color: black;
+}
+.royhat{
+    border: 1px solid black;
+    width: 150px;
+    margin: 10px;
+    list-style-position: inside;
+    list-style-image: url();
+    list-style-image: linear-gradient(
+        45deg, red, green blue    
+        );
+}
+.royhat > li{
+    border: 1px solid red;
+    margin: 5px;
+}
+.home{
+    position: relative;
+}
+.demo{
+    background: blue;
+    color: aliceblue;
+    width: 200px;
+    height: 200px;
+    padding: 5px;
+    position: static;
+    position: absolute;
+    position: relative;
+    position: fixed;
+    bottom: 40%;
+    right: 40%;
+}
+.demo::before{
+    content: "";
+    background: url();
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.demo::after{
+    content: "";
+    background: url();
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
